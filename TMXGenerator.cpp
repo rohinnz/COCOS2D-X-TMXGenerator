@@ -268,7 +268,8 @@ std::string generateXMLForTMXTiledMap(CCTMXTiledMap* map)
                 // -- Base64 Encode
                 std::string encoded = base64_encode((unsigned char*)buffer, (unsigned int)compSize);
                 is << encoded << std::endl;
-                                                                    
+                
+                free(buffer);                                           
                 
                 is << "</data>" << std::endl;
                 
