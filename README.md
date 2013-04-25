@@ -16,3 +16,14 @@ Very easy to use. Just one function call!
     
     // 4. Write XML file or store in database
 ```
+
+### Limitations
+
+The following (but not limited to) features still need to be added:
+
+* Support for different orientations. Currently only supports orthogonal.
+* Saving relative path for tileset image. Currently just saves the filename.
+* Handle different encodings and compression. Currently only supports base64 with zlib
+* Handle tile rotation
+
+See TODO notes in code.
