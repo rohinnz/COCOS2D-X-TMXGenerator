@@ -27,3 +27,9 @@ The following (but not limited to) features still need to be added:
 * Handle tile rotation
 
 See TODO notes in code.
+
+### cocos2d-iphone
+
+If you're using cocos2d-iphone then check out the Objective-C version by slycrel:
+
+https://github.com/cocos2d/cocos2d-iphone-extensions/tree/master/Extensions/TMXGenerator
